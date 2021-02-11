@@ -1,0 +1,95 @@
+<!--
+Copyright MFRKNDGN GAMES All rights reserved.
+11.02.2021 22.20
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>MFRKNDGN GAMES - Login</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <style>
+            body{
+                background-image: url("https://www.handekazanova.com/wp-content/uploads/2019/01/21-27-Ocak-Haftal%C4%B1k-Burc%CC%A7-Yorumlar%C4%B1-Hande-Kazanova.jpg");
+            }
+            /*=-footer-=*/
+            footer {
+                color: #fff;
+                background-attachment: fixed;
+                background-color:#222;
+                background-size: cover;
+                background-position: bottom;
+                top: 88.3%;
+                position: relative;
+            }
+            footer p {
+                color: #ccc;				
+            }
+            footer a {
+                color: #ccc;				
+            }
+            /*=-Copyright-=*/
+            .copyright {
+                background-color: #111;
+                padding: 12px 0;
+                font-size:14px;
+                width: 100%;
+                position: relative;
+            }
+            .box{
+                width: 500px;
+                height: 500px;
+                padding: 40px;
+                position: absolute;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                background: #191919;
+                text-align: center;
+                background: white;
+                -moz-border-radius: 10px; 
+                -webkit-border-radius: 10px; 
+                border-radius: 10px;
+                margin: 30px;
+                -webkit-box-shadow: 0 0 100px 1px gray;
+                -moz-box-shadow: 0 0 100px 1px gray;
+                box-shadow: 0 0 100px 1px gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            <img src="http://mfrkndgngames.rf.gd/uploads/image/logo.png" width="350" height="250"><br><br>
+            <form action="login.php" method="POST">
+                <center>
+                <div class="mb-3 row">
+                    <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" required id="inputEmail">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                    <div class="col-sm-10">
+                        <input type="password" class="form-control" required id="inputPassword">
+                    </div>
+                </div>
+                </center>
+                <input type="submit" class="btn btn-primary">
+            </form>
+        </div>
+        <footer>
+            <section class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <div  class="text-center text-white notranslate">
+                                &copy; <script>document.write(new Date().getFullYear())</script> MFRKNDGN GAMES. All Rights Reserved.
+                                <center>You are connected to MFRKNDGN GAMES Global Network via data centers in United States.<p>v 0.0.1</p></center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </footer>
+    </body>
+</html>
